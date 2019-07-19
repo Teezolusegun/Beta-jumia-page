@@ -847,3 +847,23 @@ height: 20px;
 .navcontainerbc p {
   color: black
 }
+
+.subnav2 {
+  display: block;
+  animation-duration: 3s;
+  animation-name: chim;
+  animation-iteration-count: infinite;
+  animation-direction: alternate
+}
+
+@keyframes chim {
+
+  /* background: url(image/jumia anim2); */
+  from {
+    margin-left: 50%
+  }
+
+  to {
+    margin-left: 0%
+  }
+}

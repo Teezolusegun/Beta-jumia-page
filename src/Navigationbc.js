@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {BrowserRouter, Link} from 'react-router-dom'
 import photo1 from './image/jumia anim1.png'
+import photo4 from './image/jumia anim2.png'
 import photo from './image/Jumiaprime.jpg'
 import photo2 from './image/jumiatiny1.png'
 import photo3 from './image/jumiatiny2.png'
@@ -181,6 +182,7 @@ class Navigationbc extends Component {
 
        <div className='subnav2'>
        <img src={photo1}></img>
+       <img src={photo4}></img>
        </div>
        <div className='subnav3'>
        <div className='sub1'>
